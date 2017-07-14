@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IHabitable.cs" />
     <Compile Include="IHasMoons.cs" />
     <Compile Include="IHasRings.cs" />
     <Compile Include="Planet.cs" />
@@ -50,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Assignment4_300936445_ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
