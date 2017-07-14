@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IHasMoons.cs" />
+    <Compile Include="IHasRings.cs" />
     <Compile Include="Planet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
