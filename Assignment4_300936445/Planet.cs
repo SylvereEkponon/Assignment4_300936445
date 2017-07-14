@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * Date: July 12, 2017
  * Description: This is the Abstract Planet class
  * version: 0.1 - Created the Abstract Planet class 
- *              - Overridden the ToSting Method
+ *              - Overridden the ToString Method
  */            
 
 namespace Assignment4_300936445
