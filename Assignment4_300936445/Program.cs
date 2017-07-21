@@ -11,6 +11,7 @@ using System.Threading.Tasks;
  * Description: Assignment 4
  * version: 0.1 - Created the Driver class
  * version: 0.2 - Implemented the GiantPlanet Class
+ * version: 0.3 - Added WaitForAnyKey Method
  */
 namespace Assignment4_300936445
 {
@@ -40,6 +41,17 @@ namespace Assignment4_300936445
             {
                 Console.WriteLine("{0} has no Ring", giantPlanet.Name);
             }
+
+            WaitForAnyKey();
+        }
+
+        /// <summary>
+        ///This is WaitForAnyKey method
+        ///It reads the console for any key press before the console is closed
+        /// </summary>
+        static void WaitForAnyKey()
+        {
+            Console.ReadKey();
         }
     }
 }
