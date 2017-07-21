@@ -12,6 +12,8 @@ using System.Threading.Tasks;
  * version: 0.1 - Created the Driver class
  * version: 0.2 - Implemented the GiantPlanet Class
  * version: 0.3 - Added WaitForAnyKey Method
+ * version: 0.4 - Implemented the TerrestrialPlanet Class
+ * Git Repo: 
  */
 namespace Assignment4_300936445
 {
@@ -41,6 +43,9 @@ namespace Assignment4_300936445
             {
                 Console.WriteLine("{0} has no Ring", giantPlanet.Name);
             }
+
+            TerrestrialPlanet terrestrialPlanet = new TerrestrialPlanet("Mercury", 4879, 0.055, true);
+            Console.WriteLine(terrestrialPlanet.ToString());
 
             WaitForAnyKey();
         }
