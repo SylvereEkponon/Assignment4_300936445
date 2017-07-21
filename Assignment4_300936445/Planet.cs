@@ -124,7 +124,7 @@ namespace Assignment4_300936445
         /// <returns></returns>
         public override string ToString()
         {
-            return string.Format("Name: {0}, Diameter: {1}, and Mass: {2}", this.Name, this.Diameter, this.Mass);
+            return string.Format("Name: {0}, Diameter: {1} km, and Mass: {2} Earths", this.Name, this.Diameter, this.Mass);
         }
 
     }
