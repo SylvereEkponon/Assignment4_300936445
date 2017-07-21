@@ -108,9 +108,9 @@ namespace Assignment4_300936445
         /// <param name="mass"></param>
         public Planet(string name,double diameter,double mass)
         {
-            this.Name = name;
-            this.Diameter = diameter;
-            this.Mass = mass;
+            this._name = name;
+            this._diameter = diameter;
+            this._mass = mass;
         }
 
 

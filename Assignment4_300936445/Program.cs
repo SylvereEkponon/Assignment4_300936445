@@ -20,6 +20,26 @@ namespace Assignment4_300936445
         {
             GiantPlanet giantPlanet = new GiantPlanet("Jupiter", 142984, 317.8, "ice");
             Console.WriteLine(giantPlanet.ToString());
+            giantPlanet.MoonCount = 69;
+            giantPlanet.RingCount = 4;
+
+            if (giantPlanet.HasMoons())
+            {
+                Console.WriteLine("{0} has {1} Moon(s)", giantPlanet.Name, giantPlanet.MoonCount);
+            }
+            else
+            {
+                Console.WriteLine("{0} has no Moon", giantPlanet.Name);
+            }
+
+            if (giantPlanet.HasRings())
+            {
+                Console.WriteLine("{0} has {1} Ring(s)", giantPlanet.Name, giantPlanet.RingCount);
+            }
+            else
+            {
+                Console.WriteLine("{0} has no Ring", giantPlanet.Name);
+            }
         }
     }
 }
